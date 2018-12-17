@@ -129,8 +129,8 @@ text-align: center;
 
 }
 footer img{
-    margin:  65px 44px 0 0 ;
-
+    margin:  65px auto 44px;
+    display: block;
 }
 .main2{
     min-height: 740px;
