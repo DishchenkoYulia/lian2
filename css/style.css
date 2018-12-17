@@ -41,7 +41,6 @@ h2{
     margin-bottom: 37px;
     font-family: 'Roboto light', sans-serif;
     text-transform: uppercase;
-
 }
 h4{
     text-align: center;
@@ -80,8 +79,6 @@ input{
 }
 .name{
     margin-right: 30px;
-
-
 }
 textarea{
     background-color: white;
@@ -93,7 +90,6 @@ textarea{
     padding-left: 11px;
     margin-bottom: 10px;
     border: solid grey 1px;
-
 }
 button{
     border: none;
@@ -118,10 +114,11 @@ footer p{
     padding: 37px 0;
 }
 .icons{
-text-align: center;
+    text-align: center;
 }
+
 .icons i{
-text-align: center;
+    text-align: center;
     font-size: 14px;
     color: #777777;
     padding-right: 59px;
@@ -138,6 +135,4 @@ footer img{
 .main2 h3{
     font-size: 30px;
     text-transform: uppercase;
-
-
 }
