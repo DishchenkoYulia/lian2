@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.conteyner{
+    max-width: 1072px;
+    margin: auto;
+    margin-bottom: 27px;
+}
+.logo{
+    float: left;
+    margin-bottom: 27px;
+}
+li{
+    float: right;
+    display: inline-block;
+    margin-right: 45px;
+
+}
+li :hover{
+    color: black;
+}
+
+li a {
+    color: #777777;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.notebook img{
+    width: 100%;
+    position: relative;
+    margin-bottom: 84px;
+}
+
+h2{
+    display: inline-block;
+    background-color: black;
+    padding: 11px 71px;
+    color: white;
+    margin-bottom: 37px;
+    font-family: 'Roboto light', sans-serif;
+    text-transform: uppercase;
+
+}
+h4{
+    text-align: center;
+    font-family: 'Roboto light', sans-serif ;
+
+}
+.section{
+    max-width: 1140px;
+    margin: auto;
+}
+.text{
+    position: absolute;
+    top: 200px;
+}
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+main .left{
+    max-width: 360px;
+    float: left;
+}
+
+main .right{
+    max-width: 752px;
+    float: right;
+}
+input{
+    background-color: white;
+    height: 40px;
+    width: 357px;
+    padding-left: 11px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: solid grey 1px;
+}
+.name{
+    margin-right: 30px;
+
+
+}
+textarea{
+    background-color: white;
+    resize: none;
+    box-sizing: border-box;
+    height: 150px;
+    width: 751px;
+
+    padding-left: 11px;
+    margin-bottom: 10px;
+    border: solid grey 1px;
+
+}
+button{
+    border: none;
+    background-color: black;
+    color: white;
+    height: 41px;
+    width: 218px
+}
+iframe{
+    width: 100%;
+    min-height: 361px;
+    margin-top: 70px;
+}
+footer{
+    min-height: 300px;
+    margin: auto;
+}
+footer p{
+    text-align: center;
+    color: #777777;
+    border-top: solid 1px #777777;
+    padding: 37px 0;
+}
+.icons{
+text-align: center;
+}
+.icons i{
+text-align: center;
+    font-size: 14px;
+    color: #777777;
+    padding-right: 59px;
+    margin: 25px 0;
+
+}
+footer img{
+    margin:  65px 44px 0 0 ;
+
+}
+.main2{
+    min-height: 740px;
+}
+.main2 h3{
+    font-size: 30px;
+    text-transform: uppercase;
+
+
+}
