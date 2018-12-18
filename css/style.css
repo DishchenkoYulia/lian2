@@ -112,6 +112,7 @@ footer p{
     color: #777777;
     border-top: solid 1px #777777;
     padding: 37px 0;
+
 }
 .icons{
     text-align: center;
@@ -124,15 +125,30 @@ footer p{
     padding-right: 59px;
     margin: 25px 0;
 
+
 }
-footer img{
-    margin:  65px auto 44px;
+footer img {
+    margin: 65px auto 44px;
     display: block;
 }
+
 .main2{
-    min-height: 740px;
+    text-align: center;
+    background-color: #fafafa;
 }
 .main2 h3{
     font-size: 30px;
     text-transform: uppercase;
+}
+.js{
+    max-width: 1140px;
+    margin: auto;
+}
+.textposition{
+    max-width: 358px;
+    margin: auto;
+    float: left;
+    display: inline-block;
+
+
 }
