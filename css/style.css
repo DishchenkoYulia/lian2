@@ -130,6 +130,7 @@ footer p{
 footer img {
     margin: 65px auto 44px;
     display: block;
+
 }
 
 .main2{
@@ -139,6 +140,10 @@ footer img {
 .main2 h3{
     font-size: 30px;
     text-transform: uppercase;
+    padding: 98px 0 46px 0;
+}
+.main2 p{
+    padding-bottom: 66px;
 }
 .js{
     max-width: 1140px;
@@ -149,6 +154,14 @@ footer img {
     margin: auto;
     float: left;
     display: inline-block;
+    margin-right: 22px;
+    margin-bottom: 26px;
 
 
+}
+.textposition img{
+    margin-bottom: 26px;
+}
+.textposition h3{
+    margin-bottom: 14px;
 }
