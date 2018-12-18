@@ -26,7 +26,14 @@ li a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+
 }
+.search i{
+    float: right;
+    font-size: 14px;
+    color: #777777;
+}
+
 .notebook img{
     width: 100%;
     position: relative;
@@ -68,6 +75,30 @@ main .right{
     max-width: 752px;
     float: right;
 }
+main .left h3{
+    text-transform: uppercase;
+    margin-bottom: 19px;
+    font-size: 30px;
+    font-weight: lighter;
+
+}
+main .left h4{
+    font-weight: lighter;
+}
+main .left h4:after{
+    margin-top: 19px;
+    content: "";
+    display: block;
+    height: 1px;
+    width: 75px;
+    top: 25px;
+    background-color: black;
+
+}
+main .left p{
+    line-height: 40px;
+}
+
 input{
     background-color: white;
     height: 40px;
@@ -75,8 +106,11 @@ input{
     padding-left: 11px;
     box-sizing: border-box;
     margin-bottom: 10px;
-    border: solid grey 1px;
+    border: solid #ebebeb 1px;
+
+
 }
+
 .name{
     margin-right: 30px;
 }
@@ -89,7 +123,7 @@ textarea{
 
     padding-left: 11px;
     margin-bottom: 10px;
-    border: solid grey 1px;
+    border: solid #ebebeb 1px;
 }
 button{
     border: none;
@@ -106,11 +140,12 @@ iframe{
 footer{
     min-height: 300px;
     margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 footer p{
     text-align: center;
     color: #777777;
-    border-top: solid 1px #777777;
+    border-top: solid 1px #ebebeb;
     padding: 37px 0;
 
 }
@@ -130,12 +165,16 @@ footer p{
 footer img {
     margin: 65px auto 44px;
     display: block;
+    padding-top: 64px;
+
+}
+footer div{
+    border-bottom: solid 1px #ebebeb;
 
 }
 
 .main2{
     text-align: center;
-    background-color: #fafafa;
 }
 .main2 h3{
     font-size: 30px;
@@ -156,6 +195,7 @@ footer img {
     display: inline-block;
     margin-right: 22px;
     margin-bottom: 26px;
+    text-align: left;
 
 
 }
@@ -164,4 +204,8 @@ footer img {
 }
 .textposition h3{
     margin-bottom: 14px;
+    font-weight: lighter;
+}
+span{
+    font-weight: bold;
 }
