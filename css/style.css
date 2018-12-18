@@ -15,31 +15,26 @@ li{
     float: right;
     display: inline-block;
     margin-right: 45px;
-
 }
 li :hover{
     color: black;
 }
-
 li a {
     color: #777777;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-
 }
 .search i{
     float: right;
     font-size: 14px;
     color: #777777;
 }
-
 .notebook img{
     width: 100%;
     position: relative;
     margin-bottom: 84px;
 }
-
 h2{
     display: inline-block;
     background-color: black;
@@ -52,7 +47,6 @@ h2{
 h4{
     text-align: center;
     font-family: 'Roboto light', sans-serif ;
-
 }
 .section{
     max-width: 1140px;
@@ -70,7 +64,6 @@ main .left{
     max-width: 360px;
     float: left;
 }
-
 main .right{
     max-width: 752px;
     float: right;
@@ -80,7 +73,6 @@ main .left h3{
     margin-bottom: 19px;
     font-size: 30px;
     font-weight: lighter;
-
 }
 main .left h4{
     font-weight: lighter;
@@ -93,12 +85,10 @@ main .left h4:after{
     width: 75px;
     top: 25px;
     background-color: black;
-
 }
 main .left p{
     line-height: 40px;
 }
-
 input{
     background-color: white;
     height: 40px;
@@ -107,10 +97,7 @@ input{
     box-sizing: border-box;
     margin-bottom: 10px;
     border: solid #ebebeb 1px;
-
-
 }
-
 .name{
     margin-right: 30px;
 }
@@ -120,7 +107,6 @@ textarea{
     box-sizing: border-box;
     height: 150px;
     width: 751px;
-
     padding-left: 11px;
     margin-bottom: 10px;
     border: solid #ebebeb 1px;
@@ -147,32 +133,25 @@ footer p{
     color: #777777;
     border-top: solid 1px #ebebeb;
     padding: 37px 0;
-
 }
 .icons{
     text-align: center;
 }
-
 .icons i{
     text-align: center;
     font-size: 14px;
     color: #777777;
     padding-right: 59px;
     margin: 25px 0;
-
-
 }
 footer img {
     margin: 65px auto 44px;
     display: block;
     padding-top: 64px;
-
 }
 footer div{
     border-bottom: solid 1px #ebebeb;
-
 }
-
 .main2{
     text-align: center;
 }
@@ -196,8 +175,6 @@ footer div{
     margin-right: 22px;
     margin-bottom: 26px;
     text-align: left;
-
-
 }
 .textposition img{
     margin-bottom: 26px;
