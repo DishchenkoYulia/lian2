@@ -416,14 +416,14 @@ main{
     margin-right: 39px;
 }
 .galleri_mini img{
-    margin: 0 2px;
+    margin: 0 1px;
     box-sizing: border-box;
 }
 .galleri_mini img:first-child{
     margin-left: 0px;
 }
 .galleri_mini img:last-child{
-    margin-left: 0;
+    margin-right: 0;
 }
 hr{
     color: #999999;
