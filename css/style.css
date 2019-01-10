@@ -8,13 +8,16 @@ header {
     z-index: 2;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+body{
+    background-color: #f3f3f3;
+}
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1072px;
+    max-width: 1140px;
     margin: auto;
-    padding: 30px;
+    padding: 30px 0;
 }
 
 .nav-item {
@@ -92,6 +95,7 @@ header {
 .gallery-item {
     margin-bottom: 35px;
     width: 100%;
+    background-color: white;
 }
 
 .small .gallery-col {
@@ -102,6 +106,7 @@ header {
 }
 .gallery img {
     width: 100%;
+    height: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -287,9 +292,6 @@ span{
     font-weight: bold;
 }
 
-.block{
-    margin:38px 44px;
-}
 .text_black{
     font-size: 20px;
     margin-bottom: 22px;
@@ -388,4 +390,87 @@ main{
 }
 .flex_search{
     display: flex;
+}
+.navigation-box {
+    background-color: white;
+}
+.navigation {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+.navigation a{
+    color: black;
+    text-decoration: none;
+    margin-right: 95px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+}
+.all_text{
+    margin-right: 39px;
+}
+.galleri_mini img{
+    margin: 0 2px;
+    box-sizing: border-box;
+}
+.galleri_mini img:first-child{
+    margin-left: 0px;
+}
+.galleri_mini img:last-child{
+    margin-left: 0;
+}
+hr{
+    color: #999999;
+    margin: 40px 0;
+}
+.bold_text{
+    color: #555555;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 27px;
+}
+.title_big{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 27px;
+}
+.mini_grey_text{
+    color: #777777;
+    font-size: 17px;
+    margin-bottom: 60px;
+}
+.icons_grey{
+    background-color: #e1e1e1;
+    max-width: 285px;
+    border-radius: 5px;
+
+}
+.icons_grey i{
+    font-size: 14px;
+    color: #777777;
+    padding: 15px;
+}
+.share{
+    color: white;
+    background-color: #707070;
+    padding: 15px 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-right: 15px;
+}
+.icons_sosial{
+    display: flex;
+    margin-bottom: 140px;
+}
+.text_centre{
+    text-align: center;
+    max-width: 520px;
+    margin: auto;
 }
